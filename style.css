@@ -128,7 +128,7 @@
 
 .cards{
     border: 1px solid grey;
-    border-radius: 20px;
+    border-radius: 21px;
 }
 
 .spots-main{
@@ -201,4 +201,10 @@
 }
 .p11{
     color: #1D4ED8;
+}
+
+.btn1{
+    border: 1px solid #1D4ED8;
+    color: #1D4ED8;
+
 }
