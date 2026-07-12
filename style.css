@@ -65,9 +65,58 @@
     font-weight: 700;
     font-size: 3rem;
     margin-bottom: 40px;
+
 }
 .herosection .hero-sec-btn{
             margin-top: 200px;
             font-size: 18px;
             
+}
+
+.cards-parent{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.speakers .mainHead {
+    /* align-items: center; */
+    text-align: center;
+}
+
+.speakers{
+    padding: 80px 60px;
+    margin-bottom: 200px;
+}
+
+.mainHead{
+    margin-bottom: 50px;
+    font-size: 3rem;
+}
+
+.cards-img img{
+    border-radius: 20px 20px 0px 0px;
+    margin-bottom: 30px;
+}
+
+.cards-content{
+    padding: 40px;
+}
+
+.cards-content h6{
+    color: #1D4ED8;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.cards-content h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cards{
+    border: 1px solid grey;
+    border-radius: 20px;
 }
