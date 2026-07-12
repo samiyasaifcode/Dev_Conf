@@ -43,3 +43,31 @@
     color: #1D4ED8;
     border: 1px solid #1D4ED8;
 }
+
+.herosection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    color: white;
+    align-items: center;
+    background-image: url("assets/banner.jpg");
+    background-size: cover;
+    height: 500px;
+    /* overlay: ; */
+    padding: 100px 300px;
+    text-align: center;
+    
+    
+}
+
+.herosection h2{
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 40px;
+}
+.herosection .hero-sec-btn{
+            margin-top: 200px;
+            font-size: 18px;
+            
+}
