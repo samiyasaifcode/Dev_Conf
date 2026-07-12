@@ -67,7 +67,7 @@
     /* overlay: ; */
     padding: 100px 400px;
     text-align: center;
-    
+    margin-bottom: 50px;
     
 }
 
@@ -102,7 +102,7 @@
 }
 
 .mainHead{
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     font-size: 3rem;
 }
 
@@ -137,7 +137,7 @@
     margin-bottom: 80px;
 }
 .spots-main .p1{
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .spots-parent{
