@@ -37,6 +37,16 @@
     border: none;
     
 }
+
+.common-outlined-btn{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: white;
+    color: #0D1B2A;
+    font-weight: 600;
+    border: 1px solid #0D1B2A;
+    
+}
 .common-btn:hover{
     cursor: pointer;
     background-color: white;
@@ -55,7 +65,7 @@
     background-size: cover;
     height: 500px;
     /* overlay: ; */
-    padding: 100px 300px;
+    padding: 100px 400px;
     text-align: center;
     
     
@@ -88,7 +98,7 @@
 
 .speakers{
     padding: 80px 60px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 .mainHead{
@@ -119,4 +129,76 @@
 .cards{
     border: 1px solid grey;
     border-radius: 20px;
+}
+
+.spots-main{
+    /* align-items: center; */
+    text-align: center;
+    margin-bottom: 80px;
+}
+.spots-main .p1{
+    margin-bottom: 30px;
+}
+
+.spots-parent{
+    display: flex;
+    justify-content: space-between;
+    /* gap: 20px; */
+    text-align: left;
+    
+    padding: 0px 100px;
+}
+.spots{
+    /* gap: 20px; */
+    border: 1px solid #888888;
+    border-radius: 20px;
+    padding: 20px 50px;
+    /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+}
+
+.spots h2{
+    font-size: 2rem;
+}
+.spots p{
+    font-size: 15px;
+}
+.spots ul li{
+    /* list-style: ; */
+    margin-left: 15px;
+    /* gap: 10px; */
+    margin-bottom: 10px;
+    
+    
+
+}
+
+/* .spots ul{
+    gap: 10px;
+} */
+.spots button{
+    margin-top: 20px;
+    /* align-items: center; */
+    /* align-self: center; */
+    
+}
+
+
+#secure{
+    font-size: 3rem;
+}
+
+.spots hr{
+    margin: 20px 0px;
+    
+}
+
+.pro{
+    background-color: #0D1B2A;
+    color: white;
+}
+.p11{
+    color: #1D4ED8;
 }
