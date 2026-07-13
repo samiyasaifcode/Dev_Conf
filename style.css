@@ -217,7 +217,7 @@
 /* 
    Testimonials Section
     */
-    
+
 .testimonials-section {
     margin-bottom: 120px;
     background-color: white; 
@@ -540,4 +540,36 @@
     .venue-map {
         height: 350px;
     }
+}
+
+.footer-parent{
+    background-color: #0D1B2A;
+    padding: 40px 100px;
+    text-align: center;
+
+}
+
+.logos{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 10px;
+}
+
+.links i{
+    color: white;
+}
+.links a{
+    text-decoration: none;
+    margin-left: 20px;
+
+}
+
+.links a:last-child {
+  margin-right: 0;
+}
+
+.footer-parent h6{
+    margin: 50px 0px;
+    color: white;
+    font-size: 0.8rem;
 }
