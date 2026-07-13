@@ -61,8 +61,9 @@
     
     color: white;
     align-items: center;
-    background-image: url("assets/banner.jpg");
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("assets/banner.jpg");
     background-size: cover;
+    background-position: center;
     height: 500px;
     /* overlay: ; */
     padding: 100px 400px;
@@ -124,6 +125,7 @@
 .cards-content h2{
     margin-top: 10px;
     margin-bottom: 10px;
+    /* color: ; */
 }
 
 .cards{
@@ -207,4 +209,335 @@
     border: 1px solid #1D4ED8;
     color: #1D4ED8;
 
+}
+
+
+/* This section is generated with help of AI and fixed by me  */
+
+/* 
+   Testimonials Section
+    */
+    
+.testimonials-section {
+    margin-bottom: 120px;
+    background-color: white; 
+    text-align: center;
+}
+
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 0 100px; 
+    text-align: left;
+}
+
+.testimonial-card {
+    border: 1px solid #E5E7EB; 
+    border-radius: 20px;
+    padding: 40px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.testimonial-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.05);
+}
+
+.stars {
+    color: #1D4ED8; 
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.stars-marcus{
+    color: white; 
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.review-text {
+    color: #555555;
+    font-style: italic;
+    line-height: 1.6;
+    flex-grow: 1; 
+    margin-bottom: 30px;
+    font-size: 0.95rem;
+}
+
+.review-text-marcus{
+    color: white;
+    font-style: italic;
+    line-height: 1.6;
+    flex-grow: 1; 
+    margin-bottom: 30px;
+    font-size: 0.95rem;
+
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    background-color: #1D4ED8; 
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+}
+
+
+
+
+.marcus-card{
+    background-color: #0D1B2A;
+    /* color: white; */
+}
+.user-details h4 {
+    color: #0D1B2A;
+    margin-bottom: 4px;
+    font-size: 1rem;
+}
+
+.user-details span {
+    color: #888888;
+    font-size: 0.85rem;
+}
+
+.user-details-marcus{
+    color: white;
+}
+
+/* 
+   Why Attend Section
+    */
+.why-attend {
+    text-align: center;
+    margin-bottom: 100px;
+    background-color: white; 
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    padding: 0 100px; 
+}
+
+.feature-card {
+    border: 1px solid #E5E7EB;
+    border-radius: 20px;
+    padding: 40px 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 5px #8a98be;
+}
+
+/* Micro-interaction to keep users engaged */
+.feature-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.05);
+    border-color: #1D4ED8; 
+
+}
+
+.feature-card .icon {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.feature-card h3 {
+    font-size: 1.5rem;
+    color: #0D1B2A;
+    margin-bottom: 15px;
+}
+
+.feature-card p {
+    color: #555555;
+    line-height: 1.6;
+}
+
+/* 
+   FAQ Section
+    */
+.faq-section {
+    margin-bottom: 120px;
+    background-color: #ffffff;
+}
+
+.faq-section .mainHead {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.faq-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: 0 100px;
+}
+
+.faq-item {
+    background-color: #ffffff;
+    border: 1px solid #E5E7EB;
+    border-radius: 15px;
+    padding: 30px;
+    border-left: 6px solid #1D4ED8; 
+    box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+}
+
+.faq-item h4 {
+    font-size: 1.2rem;
+    color: #0D1B2A;
+    margin-bottom: 12px;
+}
+
+.faq-item p {
+    color: #555555;
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
+
+/* 
+   CTA / Newsletter Section
+    */
+.cta-section {
+    margin-bottom: 100px;
+    padding: 0 100px;
+}
+
+.cta-content {
+    
+    background-color: #E5E7EB; 
+    border-radius: 20px;
+    padding: 70px 40px;
+    text-align: center;
+}
+
+.cta-content h2 {
+    font-size: 2.5rem;
+    color: #0D1B2A;
+    margin-bottom: 15px;
+}
+
+.cta-content p {
+    color: #555555;
+    margin-bottom: 35px;
+    font-size: 1.1rem;
+}
+
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.newsletter-form input {
+    padding: 15px 25px;
+    width: 350px;
+    border: 1px solid #888888;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.newsletter-form input:focus {
+    border-color: #1D4ED8; 
+}
+
+
+/* 
+   Venue Section
+                    */
+
+
+.venue-section {
+    margin-bottom: 120px;
+    background-color: #ffffff; 
+}
+
+.venue-section .mainHead {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.venue-container {
+    display: grid;
+    grid-template-columns: 40% 60%; 
+    gap: 40px;
+    padding: 0 100px; 
+    align-items: stretch;
+}
+
+.venue-info {
+    background-color: #E5E7EB; 
+    padding: 50px 40px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.venue-info h3 {
+    font-size: 2rem;
+    color: #0D1B2A;
+    margin-bottom: 15px;
+}
+
+.venue-address {
+    font-weight: 600;
+    color: #1D4ED8; 
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+.venue-desc {
+    color: #555555;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.get-directions-btn {
+    align-self: flex-start;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.venue-map {
+    width: 100%;
+    min-height: 400px;
+    border-radius: 20px;
+    overflow: hidden; 
+    border: 1px solid #E5E7EB;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.05);
+}
+
+/* responsive */
+@media (max-width: 1024px) {
+    .venue-container {
+        grid-template-columns: 1fr;
+        padding: 0 50px;
+    }
+    .venue-map {
+        height: 350px;
+    }
 }
